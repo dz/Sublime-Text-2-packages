@@ -1,0 +1,7 @@
+To install plugins, open up Sublime Text 2 and then go to Preferences->Browse packages.
+
+Open the User package, and place the plugin .py file there.
+
+Run plugins via view.run_command('command_name') in Sublime Text console, or create your own keybinding.
+
+If the plugin class is CommandNameCommand, then the name is 'command_name'.
